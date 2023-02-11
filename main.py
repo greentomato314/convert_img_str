@@ -1,7 +1,7 @@
 from PIL import Image
 import matplotlib.pyplot as plt
 import numpy as np
-path = r"C:\\Users\\cycli\\Downloads\\img.jpg"
+path = r"\\Downloads\\img.jpg"
 img = Image.open(path)
 X,Y = img.size
 def encode_img(img):
